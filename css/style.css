@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+body,ul,li,div,input,button,h2,h1,h3 { margin:0;padding:0;font-family: 'Montserrat', sans-serif;font-weight:500;box-sizing:border-box; }
+body { background-color:#f4f5f9; }
+a { text-decoration:none; }
+/* GENERAL */
+.head { width:60vw;padding-left:32px;padding-top:64px;font-weight:bold;font-size:18pt; }
+.indx_search {
+    padding: 16px;
+    padding-left: 64px;
+    border-radius: 28.5px;
+    border: none;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 16px, 50%;
+    margin-top: 32px;
+    width: 70vw;
+    margin-left: 15vw;
+}
+.indx_search:focus,.indx_search:active {
+    border: none;
+    outline: none;
+}
+#btn_order { 
+  width:32px;
+  height:32px;
+  background-image:url(../img/cart.png);
+  display:block;
+  padding: 16px;
+  background-position: 50%, 50%;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  position: absolute;
+  right: 16px;
+  top: 32px;
+}
+.categories { padding-left:32px;margin-top:32px; width: auto;}
+.categories li { display:inline-block; margin-right: 16px; padding-bottom: 16px;}
+.categories a { color:black; padding-bottom: 8px;}
+.categories a:hover { color:#ce74f0;border-color:#ce74f0;border-bottom-width:4px;border-bottom-style:solid; }
+.sellorblock { 
+  background-color:white;
+  border-radius:16px;
+  width:250px;
+  text-align:center;
+  padding:18px;
+  margin-left:8px;
+}
+.sellorblock img {width:100%;border-radius: 16px;} .sellorblock h3 {margin-top:48px;}
+.sellorblock a {
+  padding: 8px;
+  display: block;
+  border-radius: 16px;
+  color: black;
+  background-color: #f3f3f3;
+}
+.sellorblock a:hover { background-color:#ce74f0;color:white; }
+.carusel li { display:inline-block; }
+.footerbuttons {
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  bottom: 32px;
+  text-align: center;
+}
+.footerbuttons li {display: inline-block;margin: 0% 5%;}
+.footerbuttons a { display:block; width:32px;height: 32px; background-repeat: no-repeat;  }
+#home { background-image:url(../img/home.png) } #followed { background-image:url(../img/followed.png) }
+#personal { background-image:url(../img/personal.png) } #aboutus { background-image:url(../img/aboutus.png) }
+
+/* MOBILE */
+@media screen and (max-width: 850px) {
+
+  }
